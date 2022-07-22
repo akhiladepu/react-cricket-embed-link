@@ -25,9 +25,11 @@ export const Home = () => {
         <div className='flex flex-col md:flex-row justify-center'>
             {data.map(el => {
                 return (
-                    <button className='px-4 py-2 mx-4 my-8 rounded-lg bg-white border-black border-2'>
-                        <Link to={el.link} >{el.title}</Link>
-                    </button>
+                    <Link to={el.link} >
+                        <button className='px-4 py-2 mx-4 my-8 rounded-lg bg-white border-black border-2'>
+                            {el.title}
+                        </button>
+                    </Link>
                 )
             })}
         </div>
