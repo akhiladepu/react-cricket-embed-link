@@ -19,6 +19,10 @@ export const Home = () => {
         {
             title: "Willow Cricket",
             link: "//stream.crichd.vip/update/willowcricket.php"
+        },
+        {
+            title: "BT Sports",
+            link: "//stream.crichd.vip/update/bt1.php"
         }
     ]
     return (
